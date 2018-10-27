@@ -1,2 +1,2 @@
 # openwrtipk
-self compiled ipk packages 
+customized ipk packages 
