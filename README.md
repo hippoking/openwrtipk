@@ -56,7 +56,7 @@ shadowsocks-libev-ss-server
 shadowsocks-libev-ss-tunnel  
 
 ------------------------------------------------------------------------------------
-# Lean's apps including SS-Pro and SS-Plus
+# Lean's apps including SSR-Pro and SSR-Plus
 cd ~  
 git clone https://github.com/coolsnowwolf/lede.git  
 cd lede/package/lean  
@@ -68,5 +68,17 @@ cp frpc ipset-lists luci-app-frpc luci-app-ssr-plus luci-app-ssr-pro pdnsd-alt p
 
 make menuconfig  
 make V=s  
+
+# some notes about SSR-Plus and SSR-Pro
+all ss/ssr service need shadowsocks-libev and/or shadowsocksr-libev-alt package which needs libopenssl, lipthread, libpcre and zlib library  
+SSR-Plus needs below depends:  
+ipset  
+iptables  
+ipfull  
+pdnsd-alt  
+shadowsocksr-libev-alt  
+  
+Compared to SSR-Plus, SSR-Pro needs more depends: shadowsocks-libev-ss-redir and shadowsocks-libev-ss-config  
+
 
 
