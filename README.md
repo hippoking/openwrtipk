@@ -1,4 +1,5 @@
 # openwrtipk
+<<<<<<< HEAD
 customized ipk packages for openwrt CC 15.05.1, suitable for K2P router.
 
 Environment setting up:
@@ -67,7 +68,5 @@ cp frpc ipset-lists luci-app-frpc luci-app-ssr-plus luci-app-ssr-pro pdnsd-alt p
 
 make menuconfig
 make V=s
-
-
 
 
