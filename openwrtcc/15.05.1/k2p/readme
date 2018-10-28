@@ -1,3 +1,0 @@
-All libopenssl.ipk are compiled with camellia encryption support.
-1.0.2n is compiled from official openwrt cc 15.05.1 library.
-1.0.2p is compiled from official openwrt 18.06.1 repo.
